@@ -1,0 +1,35 @@
+
+body{
+
+	background: url(../images/burger_bg.jpg);
+	background-color: #f4d26e;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 25%;
+	text-align:  center;
+}
+
+.container	{
+
+	margin-top: 220px;
+	position: absolute;
+    text-align: center;
+}
+
+#header {
+	
+	text-align: center;
+}
+
+button {
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none;
+	background-color: #7d5937;
+	color: white;
+}
+
+li{
+	list-style-type: none;
+}
