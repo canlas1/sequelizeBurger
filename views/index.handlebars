@@ -31,7 +31,7 @@
          {{this.burger_name}}
 
           <form action="/burgers/eat?_method=PUT" method="POST">
-            <input type="hidden" name="burger_id" value={{this.id}}>
+            <input type="hidden" name="devoured" value={{this.id}}>
             <button type="submit">Submit!</button>
           </form>
 

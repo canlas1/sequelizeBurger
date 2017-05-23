@@ -1,14 +1,20 @@
+//var orm = require("../config/orm.js");
+
+// module.exports = burger;
+
 module.exports = function(sequelize, DataTypes) {
-    var Burgers = sequelize.define("Burgers", {
-        burger_name: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
-        devoured: {
-            type: DataTypes.BOOLEAN,
-            defaultValue: false
-        }
-    });
-    console.log(Burgers);
-    return Burgers;
+  var burger = sequelize.define("burger", {
+   burger_name: {
+      type: DataTypes.STRING,
+      allowNull: false
+      },
+
+    devoured: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
+      
+    }
+  });
+  return burger;
 };
