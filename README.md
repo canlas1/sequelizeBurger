@@ -1,1 +1,1 @@
-burger app to eat and regurgitate the burgers with put, post, get
+burger app to eat and regurgitate the burgers with put, post, get using sequelize

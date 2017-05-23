@@ -8,8 +8,7 @@ var db = require("../models");
 
 router.get("/", function(req, res) {
    db.burger.findAll({}).then(function(data) {
-    //console.log(data)
-      //We have access to the todos as an argument inside of the callback function
+  
      var hbsObject = { burgers: data };
     res.render('index', hbsObject);
 
